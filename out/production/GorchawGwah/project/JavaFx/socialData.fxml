@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1033.0" maxWidth="1600" minHeight="900" minWidth="1600" prefHeight="900.0" prefWidth="1600.0" style="-fx-background-color: #2C767C; -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.JavaFx.rootController">
+    <children>
+        <Label alignment="CENTER" layoutX="-4.0" layoutY="-3.0" opacity="0.57" prefHeight="133.0" prefWidth="2084.0" style="-fx-background-color: #466D7F; -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="FontAwesome" size="48.0" />
+            </font>
+        </Label>
+        <TabPane layoutX="80.0" layoutY="184.0">
+            <tabs>
+                <Tab text="Data Entry">
+                    <content>
+                        <ScrollPane prefHeight="716.0" prefWidth="1429.0" style="-fx-background-color: transparent;">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1457.0" prefWidth="1426.0" style="-fx-background-color: #54849A;">
+                                    <children>
+                                        <ComboBox layoutX="18.0" layoutY="67.0" prefWidth="150.0" promptText="Observer" />
+                                        <TextField layoutX="31.0" layoutY="195.0" />
+                                        <TextField layoutX="31.0" layoutY="145.0" />
+                                        <Button layoutX="282.0" layoutY="195.0" mnemonicParsing="false" text="Save Addition" />
+                                        <ComboBox layoutX="201.0" layoutY="66.0" prefWidth="150.0" promptText="Elephant" />
+                                        <ComboBox layoutX="555.0" layoutY="66.0" prefWidth="150.0" promptText="GPS" />
+                                        <ComboBox layoutX="746.0" layoutY="67.0" prefWidth="150.0" promptText="Start Time" />
+                                        <ComboBox layoutX="925.0" layoutY="67.0" prefWidth="150.0" promptText="Weather" />
+                                        <ComboBox layoutX="1096.0" layoutY="65.0" prefWidth="150.0" promptText="Mahout" />
+                                        <TextField layoutX="32.0" layoutY="296.0" prefHeight="31.0" prefWidth="127.0" text="General Health">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="32.0" layoutY="339.0" prefHeight="25.0" prefWidth="385.0" text="Biting Flies, ticks, insects or larvae on the skin or ears?" />
+                                        <TextField layoutX="32.0" layoutY="375.0" prefHeight="25.0" prefWidth="385.0" text="Any new wounds or abscesses?" />
+                                        <TextField layoutX="32.0" layoutY="409.0" prefHeight="25.0" prefWidth="385.0" text="Have any old wounds healed?" />
+                                        <TextField layoutX="32.0" layoutY="445.0" prefHeight="25.0" prefWidth="385.0" text="Are there any bad smells present?" />
+                                        <TextField layoutX="31.0" layoutY="486.0" prefHeight="25.0" prefWidth="385.0" text="Is the elephant repeatedly blowing or scratching at a particular spot?" />
+                                        <TextField layoutX="31.0" layoutY="527.0" prefHeight="31.0" prefWidth="126.0" text="Eyes">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="727.0" layoutY="155.0" prefHeight="31.0" prefWidth="115.0" text="Body Scoring" AnchorPane.leftAnchor="737.0">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="33.0" layoutY="573.0" prefHeight="25.0" prefWidth="385.0" text="Any irritation (Pink/Bloodshot/Overly Watering)?" />
+                                        <TextField layoutX="33.0" layoutY="609.0" prefHeight="25.0" prefWidth="385.0" text="Type of Irritation? If applicable" />
+                                        <TextField layoutX="33.0" layoutY="643.0" prefHeight="25.0" prefWidth="385.0" text="Spotting or debris in the eye?" />
+                                        <TextField layoutX="33.0" layoutY="679.0" prefHeight="25.0" prefWidth="385.0" text="Are there any bad smells present?" />
+                                        <TextField layoutX="727.0" layoutY="207.0" prefHeight="31.0" prefWidth="117.0" text="Head" AnchorPane.leftAnchor="737.0">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="727.0" layoutY="265.0" prefHeight="31.0" prefWidth="117.0" text="Shoulder Blade" AnchorPane.leftAnchor="737.0">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="724.0" layoutY="310.0" prefHeight="31.0" prefWidth="117.0" text="Ribs" AnchorPane.leftAnchor="737.0">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="728.0" layoutY="370.0" prefHeight="31.0" prefWidth="117.0" text="Flank" AnchorPane.leftAnchor="737.0">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="730.0" layoutY="435.0" prefHeight="31.0" prefWidth="117.0" text="Lower Spine" AnchorPane.leftAnchor="737.0">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="731.0" layoutY="499.0" prefHeight="31.0" prefWidth="117.0" text="Pelvis" AnchorPane.leftAnchor="737.0">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="737.0" layoutY="556.0" prefHeight="31.0" prefWidth="117.0" text="Final Score" AnchorPane.leftAnchor="737.0">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="34.0" layoutY="724.0" prefHeight="31.0" prefWidth="126.0" text="Ears">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="29.0" layoutY="774.0" prefHeight="25.0" prefWidth="385.0" text="Any drainage?" AnchorPane.leftAnchor="31.0" />
+                                        <TextField layoutX="33.0" layoutY="817.0" prefHeight="31.0" prefWidth="126.0" text="Mouth" AnchorPane.leftAnchor="33.0">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="39.0" layoutY="863.0" prefHeight="25.0" prefWidth="385.0" text="Any discolouration?" AnchorPane.leftAnchor="31.0" />
+                                        <TextField layoutX="50.0" layoutY="902.0" prefHeight="25.0" prefWidth="385.0" text="Bad smell coming from the mouth?" AnchorPane.leftAnchor="31.0" />
+                                        <TextField layoutX="32.0" layoutY="944.0" prefHeight="31.0" prefWidth="163.0" text="Feet and Locomotion">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="28.0" layoutY="991.0" prefHeight="25.0" prefWidth="385.0" text="Any new cracked or broken toenails?" AnchorPane.leftAnchor="33.0" />
+                                        <TextField layoutX="21.0" layoutY="1033.0" prefHeight="25.0" prefWidth="385.0" text="Any lameness or locomotion issues?" AnchorPane.leftAnchor="33.0" />
+                                        <TextField layoutX="31.0" layoutY="1083.0" prefHeight="25.0" prefWidth="385.0" text="Are there any blisters on the soles of the feet?" />
+                                        <TextField layoutX="31.0" layoutY="1125.0" prefHeight="25.0" prefWidth="385.0" text="Which foot/leg if applicable?" />
+                                        <TextField layoutX="35.0" layoutY="1168.0" prefHeight="25.0" prefWidth="385.0" text="Any sign of abnormal sweating around the toenails?" />
+                                        <TextField layoutX="688.0" layoutY="725.0" prefHeight="31.0" prefWidth="126.0" text="Faeces">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="689.0" layoutY="776.0" prefHeight="25.0" prefWidth="385.0" text="Is there faeces any shape but round boluses?" />
+                                        <TextField layoutX="689.0" layoutY="821.0" prefHeight="25.0" prefWidth="385.0" text="Is there a strange smell coming from the faeces?" />
+                                        <TextField layoutX="692.0" layoutY="863.0" prefHeight="25.0" prefWidth="385.0" text="Are there any parasites/worms present?" />
+                                        <TextField layoutX="692.0" layoutY="908.0" prefHeight="25.0" prefWidth="385.0" text="Is any soil, blood, thick mucas or excessive dryness?" />
+                                        <TextField layoutX="689.0" layoutY="963.0" prefHeight="31.0" prefWidth="170.0" text="Behavioural Indicators ">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="690.0" layoutY="1014.0" prefHeight="25.0" prefWidth="385.0" text="Frequent trunk, tail and head movements?" />
+                                        <TextField layoutX="690.0" layoutY="1059.0" prefHeight="25.0" prefWidth="385.0" text="Appedtite - eating frequently without significant breaks?" />
+                                        <TextField layoutX="693.0" layoutY="1101.0" prefHeight="25.0" prefWidth="385.0" text="Frequent exploratory behaviours?" />
+                                        <TextField layoutX="693.0" layoutY="1146.0" prefHeight="25.0" prefWidth="385.0" text="Loss of interest in mating?" />
+                                        <TextField layoutX="37.0" layoutY="1210.0" prefHeight="31.0" prefWidth="185.0" text="Behavioural Stereotypies">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </TextField>
+                                        <TextField layoutX="38.0" layoutY="1261.0" prefHeight="25.0" prefWidth="385.0" text="Presences?" />
+                                        <TextField layoutX="38.0" layoutY="1306.0" prefHeight="25.0" prefWidth="385.0" text="Type of Stereotypy?" />
+                                        <TextField layoutX="41.0" layoutY="1348.0" prefHeight="25.0" prefWidth="385.0" text="Frequency?" />
+                                        <Button layoutX="747.0" layoutY="1216.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="272.0" text="Submit Record">
+                                            <font>
+                                                <Font size="20.0" />
+                                            </font>
+                                        </Button>
+                                        <Button layoutX="746.0" layoutY="1298.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="272.0" text="Clear Record">
+                                            <font>
+                                                <Font size="20.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </ScrollPane>
+                    </content>
+                </Tab>
+                <Tab text="Data View">
+                    <content>
+                        <ScrollPane prefHeight="716.0" prefWidth="1429.0" style="-fx-background-color: transparent;">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1457.0" prefWidth="1426.0" style="-fx-background-color: #54849A;" />
+                            </content>
+                        </ScrollPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+        <Label layoutX="277.0" layoutY="78.0" text="Elephant Welfare" textFill="WHITE">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="116.0" fitWidth="157.0" layoutX="97.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../graphics/kisspng-ganesha-computer-icons-elephant-elephant-icon-download-free-vectors-5ab0c27211e246.3645851915215335540733.png" />
+            </image>
+        </ImageView>
+        <Text fill="WHITE" layoutX="235.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gorchaw Gwah">
+            <font>
+                <Font size="48.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
